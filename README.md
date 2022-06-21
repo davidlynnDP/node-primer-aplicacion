@@ -1,11 +1,14 @@
 
 
-## Multiplicar Console App
-
-Esta es una aplicación para generar archivos de tablas de multiplicar
-
-Ejecutar este comando
+# Notas:
+Este es mi primer programa en Node 
 
 ```
-npm install
+Options:
+      --help     Show help                                             [boolean]
+      --version  Show version number                                   [boolean]
+  -b, --base     Es la base de la tabla de multiplicar       [number] [required]
+  -h, --hasta    Este es el numero hasta donde quieres la tabla
+                                                          [number] [default: 10]
+  -l, --listar   Muestra la tabla en consola          [boolean] [default: false]
 ```
